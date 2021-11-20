@@ -17,7 +17,7 @@
         public static function position($todo) {
             switch($todo){
                 case 'start':
-                    print '<div class="form-position">';
+                    print '<div class="loginform-position">';
                     break;
                 case 'stop':
                     print '</div>';

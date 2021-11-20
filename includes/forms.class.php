@@ -10,7 +10,7 @@
                 <div class="mb-3">
                     <label for="loginFormInput" class="form-label">Username</label>
                     <input type="password" class="form-control" id="loginFormInput" placeholder="Password" />
-                <div>
+                </div>
             ';
         }
     }
