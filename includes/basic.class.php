@@ -22,4 +22,16 @@
                 </html>
             ';
         }
+        
+        public static function br($count){
+            for($i=1;$i<=$count;$i++){
+                print '<br />';
+            }
+        }
+        
+        public static function page($url){
+            print '
+                <script language="javascript">document.location="'.$url.'";</script>
+            ';
+        }
     }
