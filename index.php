@@ -1,3 +1,9 @@
 <?php
 
-    include_once('includes/config.class.php');
+    include_once('includes/basic.class.php');
+    
+    basic::htmlHeader();
+    
+    
+    
+    basic::htmlFooter();
