@@ -10,7 +10,7 @@
                         <title>'.config::appTitle.' '.config::appVersion.'.'.config::appRevision.'</title>
                         <link rel="stylesheet" type="text/css" href="css/'.config::appTheme.'/'.config::appTheme.'.css" />
                         <link rel="stylesheet" type="text/css" href="css/'.config::cssBootstrap.'" />
-                        <script src="js/'.config::jsBootstrap.'" />
+                        <script src="js/'.config::jsBootstrap.'"></script>
                     </head>
                     <body>
             ';

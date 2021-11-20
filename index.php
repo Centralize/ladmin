@@ -6,10 +6,14 @@
     
     basic::htmlHeader();
     design::content('start');
-   
     design::position('start');
-    forms::frmLogin();
-    design::position('stop');
     
+    print 'Login';
+    
+    forms::form('start', 'chklogin.php', 'POST');
+    forms::frmLogin();
+    forms::form('stop');
+    
+    design::position('stop');
     design::content('stop');
     basic::htmlFooter();
